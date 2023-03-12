@@ -22,7 +22,7 @@ public class FirstPersonController : MonoBehaviour
 
     public Camera playerCamera;
 
-    public float fov = 60f;
+    public float fov = 70f;
     public bool invertCamera = false;
     public bool cameraCanMove = true;
     public float mouseSensitivity = 2f;
@@ -65,7 +65,7 @@ public class FirstPersonController : MonoBehaviour
     #region Sprint
 
     public bool enableSprint = true;
-    public bool unlimitedSprint = false;
+    public bool unlimitedSprint = true;
     public KeyCode sprintKey = KeyCode.LeftShift;
     public float sprintSpeed = 7f;
     public float sprintDuration = 5f;
@@ -94,7 +94,7 @@ public class FirstPersonController : MonoBehaviour
 
     #region Jump
 
-    public bool enableJump = true;
+    public bool enableJump = false;
     public KeyCode jumpKey = KeyCode.Space;
     public float jumpPower = 5f;
 
@@ -105,7 +105,7 @@ public class FirstPersonController : MonoBehaviour
 
     #region Crouch
 
-    public bool enableCrouch = true;
+    public bool enableCrouch = false;
     public bool holdToCrouch = true;
     public KeyCode crouchKey = KeyCode.LeftControl;
     public float crouchHeight = .75f;
@@ -120,7 +120,7 @@ public class FirstPersonController : MonoBehaviour
 
     #region Head Bob
 
-    public bool enableHeadBob = true;
+    public bool enableHeadBob = false;
     public Transform joint;
     public float bobSpeed = 10f;
     public Vector3 bobAmount = new Vector3(.15f, .05f, 0f);
