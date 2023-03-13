@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogueSystem : MonoBehaviour
+public class lookAtPlayer : MonoBehaviour
 {
-    /// VARIABLES
     private Transform player; // finding the player
     private Vector3 targetPos; // target position
 
@@ -23,15 +22,5 @@ public class dialogueSystem : MonoBehaviour
     private void Update() {
         targetPos = new Vector3(player.position.x, transform.position.y, player.position.z); // only get x and z
     }
-    // Starts on interact
 
-    // Camera locks on target NPC
-
-    // UI elements appear
-
-    // Text prints to UI
-
-    // Player interacts to advance to next dialogue
-
-    // When dialogue is finished, camera unlocks
 }
