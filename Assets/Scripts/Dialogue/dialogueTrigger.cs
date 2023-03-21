@@ -19,8 +19,8 @@ public class dialogueTrigger : MonoBehaviour
     private void Update()
     {
         targetPos = new Vector3(player.position.x, transform.position.y, player.position.z); // track playerPos
-        Debug.Log("Player in range? " + playerInRange); // tell me if player is close
-        Debug.Log("Player interacted? " + playerInteracted); // tell me if player has interacted
+        //Debug.Log("Player in range? " + playerInRange); // tell me if player is close
+        //Debug.Log("Player interacted? " + playerInteracted); // tell me if player has interacted
         if (playerInRange) { // if the player is close
             transform.LookAt(targetPos); // look at player
             Debug.Log("Looking"); // print to console thx babe

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - NPC
   - textBox
+  - Mop
+  - Spill
   layers:
   - Default
   - TransparentFX
