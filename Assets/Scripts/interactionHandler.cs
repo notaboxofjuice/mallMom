@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class interactionHandler : MonoBehaviour
-{ // to be assigned to FPS controller prefab
+{ // to be assigned to player camera
     /// VARIABLES
     Ray ray; // ray
     RaycastHit hit; // store hit info
@@ -20,15 +20,24 @@ public class interactionHandler : MonoBehaviour
             { // if it's an NPC
                 hitObject.GetComponent<dialogueTrigger>().playerInteracted = true;
             }
-            else if (hitObject.tag == "Mop") // if it's mop
-            { // pick up mop
-                hitObject.GetComponent<mopManager>().mopPickup();
-                hasMop = true; // player has mop
-            }
             else if (hitObject.tag == "Spill" && hasMop) // if spill and hasMop
             { // clean
                 GameObject.FindWithTag("Mop").GetComponent<mopManager>().cleanSpill();
                 Destroy(hitObject.gameObject); // destroy spill
+            }
+            else if (hitObject.tag == "Shelf" && gameManager.GetInstance().currentBox != null) // if shelf and holding box
+            {
+                hitObject.GetComponentInParent<restockManager>().tryRestock();
+            }
+            else if (!gameManager.GetInstance().occupied) { // player is unoccupied,
+                if (hitObject.tag == "Mop" && !hasMop) { // if mop and not hasMop
+                    hitObject.GetComponent<mopManager>().mopPickup();
+                    gameManager.GetInstance().occupied = hasMop = true; // player occupied with mop
+                }
+                else if (hitObject.tag == "Box" && gameManager.GetInstance().currentBox == null) { // if box and current box is null
+                    hitObject.GetComponentInParent<restockManager>().boxPickup();
+                    gameManager.GetInstance().occupied = true; // player occupied with box
+                }
             }
             else
             { // if nothin

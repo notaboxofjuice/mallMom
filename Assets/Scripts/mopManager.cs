@@ -44,7 +44,8 @@ public class mopManager : MonoBehaviour
         { // if all spills cleaned
             spillText.enabled = false; // hide text
             Destroy(this.gameObject); // destroy mop
-            // destroy piece of tape blocking the escalator (comes later)
+            Destroy(gameManager.GetInstance().tapeMop); // destroy piece of tape blocking the escalator
+            gameManager.GetInstance().occupied = false; // player is no longer occupied
         }
     }
 }
