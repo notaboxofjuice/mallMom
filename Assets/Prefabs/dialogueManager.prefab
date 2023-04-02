@@ -258,6 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 7730581380422581450}
   dialogueText: {fileID: 4504024542562916569}
+  npcBody: {fileID: 0}
   dialogueIsPlaying: 0
 --- !u!1 &5976509405539601717
 GameObject:
@@ -421,7 +422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

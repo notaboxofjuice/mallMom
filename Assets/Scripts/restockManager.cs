@@ -16,7 +16,8 @@ public class restockManager : MonoBehaviour
     { // to pick up the box
         boxHere.transform.parent = GameObject.FindWithTag("Player").transform; // player carries box
         boxHere.GetComponent<BoxCollider>().enabled = false; // disable box collider
-        boxHere.transform.position = new Vector3(0, 0, 0); // box to center of player
+        Destroy(boxHere.GetComponent<Rigidbody>()); // destroy rigidbody
+        boxHere.transform.position = new Vector3(0, -100, 0); // box to center of player
         gameManager.GetInstance().currentBox = boxHere; // set boxHere as currentBox
         gameManager.GetInstance().RestockUI();
     }

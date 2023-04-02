@@ -10,7 +10,9 @@ public class dialogueManager : MonoBehaviour
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
-    private GameObject npcBody; // need this for handling NPC collider
+    [Header("Public Variables")]
+    [Tooltip("For handling NPC collider")]
+    public GameObject npcBody; // need this for handling NPC collider
     private Story currentStory; // current Ink file to display
     public bool dialogueIsPlaying; // track if dialogue is playing
     /// METHODS
@@ -27,7 +29,6 @@ public class dialogueManager : MonoBehaviour
     private void Start() { // on frame zero
         dialogueIsPlaying = false; // no dialogue playing
         dialoguePanel.SetActive(false); // hide panel
-        npcBody = GameObject.FindWithTag("NPC"); // find NPC body
     }
     private void Update() { // to traverse the logic of the Ink story
         if (!dialogueIsPlaying) { // if there's no dialogue
@@ -50,6 +51,7 @@ public class dialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false); // no panel
         dialogueText.text = ""; // empty string
         GameObject.FindWithTag("Player").GetComponent<FirstPersonController>().enabled = true; // enable ctrlr
+        Invoke("EnableCollider", 1.0f); // enable collider after 1 second
     }
     private void ContinueStory() {
         if (currentStory.canContinue) { // make sure there's more dialogue to play
@@ -57,6 +59,9 @@ public class dialogueManager : MonoBehaviour
         } else { // empty JSON file
             ExitDialogueMode();
         }
-
+    }
+    void EnableCollider() { // enables NPC body's collider and clears the object
+        npcBody.GetComponent<Collider>().enabled = true;
+        npcBody = null;
     }
 }

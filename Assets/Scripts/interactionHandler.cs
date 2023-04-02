@@ -18,6 +18,11 @@ public class interactionHandler : MonoBehaviour
             Debug.Log("Interacted with " + hitObject.name); // print to console
             if (hitObject.tag == "NPC")
             { // if it's an NPC
+                dialogueManager.GetInstance().npcBody = hitObject.gameObject; // NPC is hit object
+                if (gameManager.GetInstance().heldFetch != null && hitObject.GetComponentInParent<fetchManager>() != null) { // player has fetch and NPC takes fetch
+                    Debug.Log("Trying to give fetch...");
+                    hitObject.GetComponentInParent<fetchManager>().TryFetch(); // attempt to give fetch
+                }
                 hitObject.GetComponent<dialogueTrigger>().playerInteracted = true;
             }
             else if (hitObject.tag == "Spill" && hasMop) // if spill and hasMop
@@ -37,6 +42,9 @@ public class interactionHandler : MonoBehaviour
                 else if (hitObject.tag == "Box" && gameManager.GetInstance().currentBox == null) { // if box and current box is null
                     hitObject.GetComponentInParent<restockManager>().boxPickup();
                     gameManager.GetInstance().occupied = true; // player occupied with box
+                } else if (hitObject.tag == "Fetch" && gameManager.GetInstance().heldFetch == null) {
+                    hitObject.GetComponentInParent<fetchManager>().FetchPickup();
+                    gameManager.GetInstance().occupied = true; // player occupied with fetch
                 }
             }
             else

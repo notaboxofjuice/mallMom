@@ -8,6 +8,9 @@ TagManager:
   - textBox
   - Mop
   - Spill
+  - Shelf
+  - Box
+  - Fetch
   layers:
   - Default
   - TransparentFX

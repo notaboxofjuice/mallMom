@@ -10,7 +10,7 @@ public class gameManager : MonoBehaviour
     [Header("Escalator Stuff")]
     public GameObject tapeMop;
     public GameObject tapeStock;
-    public GameObject tapeSeek;
+    public GameObject tapeFetch;
     [Header("Public Vars")]
     [Tooltip("Is the player in a minigame?")]
     public bool occupied = false;
@@ -22,6 +22,16 @@ public class gameManager : MonoBehaviour
     [Tooltip("Restocked shelves")]
     public int shelfCurrent = 0; // Restocked shelves
     [SerializeField] TextMeshProUGUI shelfText;
+    [Header("Fetch Minigame")]
+    [Tooltip("Currently held fetch item")]
+    public GameObject heldFetch;
+
+    [Tooltip("Total items to fetch")]
+    public int fetchTotal;
+    [Tooltip("Count of fetched items")]
+    public int fetchCount = 0;
+    [SerializeField] TextMeshProUGUI fetchText;
+    [SerializeField] TextMeshProUGUI heldText;
     // INTERNAL VARS
     [Header("Private Vars")]
     private static gameManager instance;
@@ -34,6 +44,8 @@ public class gameManager : MonoBehaviour
     }
     private void Start() {
         shelfText.text = ""; // empty shelf text
+        fetchText.text = ""; // empty fetch text
+        heldText.text = ""; // empty held item
     }
     // PRIVATE METHODS
     // PUBLIC METHODS
@@ -49,7 +61,20 @@ public class gameManager : MonoBehaviour
         }
         RestockUI(); // update my UI
     }
+    public void AddFetch() { // triggered on successful fetch
+        fetchCount += 1; // increment counter
+        if (fetchCount == fetchTotal) { 
+            Destroy(tapeFetch); // destroy a piece of tape
+            Destroy(fetchText.transform.parent.gameObject); // destroy fetchUI
+            occupied = false;
+        }
+        heldText.text = "";
+    }
     public void RestockUI() {
         shelfText.text = "Empty Shelves Remaining: " + (shelfTotal - shelfCurrent).ToString();
+    }
+    public void FetchUI() {
+        fetchText.text = "Items to Fetch: " + (fetchTotal - fetchCount).ToString();
+        heldText.text = "Picked up: " + heldFetch.name.ToString();
     }
 }
