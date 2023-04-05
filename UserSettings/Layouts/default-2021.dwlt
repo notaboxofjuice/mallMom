@@ -8,21 +8,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1
-    y: 51
-    width: 1278
-    height: 1340
-  m_ShowMode: 4
-  m_Title: Inspector
-  m_RootView: {fileID: 10}
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
+    x: 172
+    y: 383
+    width: 641
+    height: 603
+  m_ShowMode: 0
+  m_Title: Build Settings
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 640, y: 601}
+  m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -32,24 +32,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_PixelRect:
     serializedVersion: 2
-    x: 785
-    y: 0
-    width: 493
-    height: 1290
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
+    x: 0
+    y: 43
+    width: 2560
+    height: 1349
+  m_ShowMode: 4
+  m_Title: Project
+  m_RootView: {fileID: 13}
+  m_MinSize: {x: 875, y: 371}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,20 +58,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: BuildPlayerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 510
-    width: 568
-    height: 255
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+    y: 0
+    width: 641
+    height: 603
+  m_MinSize: {x: 640, y: 601}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -89,19 +87,94 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 15}
   - {fileID: 3}
   m_Position:
     serializedVersion: 2
-    x: 217
+    x: 0
     y: 0
-    width: 568
-    height: 765
-  m_MinSize: {x: 100, y: 200}
-  m_MaxSize: {x: 8096, y: 16192}
-  vertical: 1
-  controlID: 279
+    width: 641
+    height: 603
+  m_MinSize: {x: 640, y: 601}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 395
 --- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1026
+    y: 0
+    width: 841
+    height: 660
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 25}
+  m_Panes:
+  - {fileID: 25}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2560
+    height: 1299
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 1
+  controlID: 190
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1867
+    y: 0
+    width: 693
+    height: 1299
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,19 +189,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 479
+    x: 1138
     y: 0
-    width: 306
-    height: 525
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
+    width: 729
+    height: 639
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 26}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 16}
+  - {fileID: 26}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,19 +214,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 5}
+  - {fileID: 12}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 765
-    width: 785
-    height: 525
+    y: 660
+    width: 1867
+    height: 639
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
---- !u!114 &7
+  controlID: 108
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,19 +239,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 2}
+  - {fileID: 16}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1278
-    height: 1290
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 24288, y: 24288}
+    y: 0
+    width: 2560
+    height: 1299
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 444
---- !u!114 &8
+  controlID: 191
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,16 +268,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 217
-    height: 765
+    width: 515
+    height: 660
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 23}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,16 +294,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 479
-    height: 525
+    width: 1138
+    height: 639
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &10
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,22 +316,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 7}
-  - {fileID: 12}
+  - {fileID: 14}
+  - {fileID: 6}
+  - {fileID: 15}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1278
-    height: 1340
+    width: 2560
+    height: 1349
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &11
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,12 +348,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1278
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &12
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,12 +369,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1320
-    width: 1278
+    y: 1329
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &13
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -314,19 +387,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 14}
-  - {fileID: 6}
+  - {fileID: 17}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 785
-    height: 1290
-  m_MinSize: {x: 200, y: 300}
-  m_MaxSize: {x: 16192, y: 24288}
+    width: 1867
+    height: 1299
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 277
---- !u!114 &14
+  controlID: 77
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,19 +412,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 4}
+  - {fileID: 11}
+  - {fileID: 18}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 785
-    height: 765
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
+    width: 1867
+    height: 660
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 278
---- !u!114 &15
+  controlID: 78
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,18 +440,69 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 515
     y: 0
-    width: 568
-    height: 510
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+    width: 511
+    height: 660
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 24}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 24}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &16
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 640, y: 580}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Build Settings
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 172
+    y: 383
+    width: 641
+    height: 582
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -397,10 +522,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 781
-    y: 846
-    width: 497
-    height: 504
+    x: 1138
+    y: 733
+    width: 727
+    height: 618
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -410,8 +535,8 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -585,229 +710,20 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 745}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 26ba50e83fcab874c84f8fa8807ccef0
-        - ff9999a1595c01d4c8f53303916e3c14
-        - 81b3e27fff45b3d43b7557e8fd7f24dc
-        - 0000000000000000e100000000000000
-        - 00000000000000003000000000000000
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Dialogue
-          label: Dialogue
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Dialogue\test.ink
-          label: test.ink
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Dialogue\test.ink
-            fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.ink
-            projectPath: Assets\Dialogue\test.ink
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Dialogue\test.json
-          label: test.json
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Dialogue\test.json
-            fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.json
-            projectPath: Assets\Dialogue\test.json
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\ProjectVersion.txt
-            projectPath: ProjectSettings\ProjectVersion.txt
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Dialogue
-        - ProjectSettings
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Dialogue
-          label: Dialogue
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -836,186 +752,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Dialogue
-        label: Dialogue
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Dialogue\test.ink
-        label: test.ink
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Dialogue\test.ink
-          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.ink
-          projectPath: Assets\Dialogue\test.ink
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Dialogue\test.json
-        label: test.json
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Dialogue\test.json
-          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.json
-          projectPath: Assets\Dialogue\test.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\GameDev\Unity\Mall Mom\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1035,51 +771,787 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\Dialogue\test.ink
-      fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.ink
-      projectPath: Assets\Dialogue\test.ink
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Dialogue\test.json
-      fullPath: C:\GameDev\Unity\Mall Mom\Assets\Dialogue\test.json
-      projectPath: Assets\Dialogue\test.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\GameDev\Unity\Mall Mom\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\GameDev\Unity\Mall Mom\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 5 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-03-31T23:20:55.024-04:00
+      updatedTimeString: 2023-04-02T19:27:52.720-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-03-31T23:27:58.600-04:00
+      updatedTimeString: 2023-04-02T19:29:14.218-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-03-31T23:27:59.112-04:00
+      updatedTimeString: 2023-04-02T19:27:53.648-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: b231f28ac8c2b44c6ae7985cf08fe95e3d80e9e0
+      mergeA: 
+      mergeB: 
+      authorName: notaboxofjuice
+      authorEmail: 68351196+notaboxofjuice@users.noreply.github.com
+      commitEmail: 68351196+notaboxofjuice@users.noreply.github.com
+      commitName: notaboxofjuice
+      summary: Restocking Minigame v0.1
+      description: Restocking minigame now works. Also guards against multitasking.
+        Also I can't believe I didn't have a Game Manager already.
+      timeString: 2023-03-28T00:44:43.000-04:00
+      commitTimeString: 2023-03-28T00:44:43.000-04:00
+      changes:
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\ProBuilder Data.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\ProBuilder Data\Prototype Materials.asset
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+          Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+        projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+          Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Prefabs\FirstPersonController.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\FirstPersonController.prefab
+        projectPath: Assets\Prefabs\FirstPersonController.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Game Manager.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Game Manager.prefab
+        projectPath: Assets\Prefabs\Game Manager.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Game Manager.prefab.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Game Manager.prefab.meta
+        projectPath: Assets\Prefabs\Game Manager.prefab.meta
+        originalPath: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Mopping\mopHolder.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Mopping\mopHolder.prefab
+        projectPath: Assets\Prefabs\Mopping\mopHolder.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\dialogueManager.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\dialogueManager.prefab
+        projectPath: Assets\Prefabs\dialogueManager.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\npcHolder.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\npcHolder.prefab
+        projectPath: Assets\Prefabs\npcHolder.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\restockHolder.prefab
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\restockHolder.prefab
+        projectPath: Assets\Prefabs\restockHolder.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\restockHolder.prefab.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\restockHolder.prefab.meta
+        projectPath: Assets\Prefabs\restockHolder.prefab.meta
+        originalPath: Assets\Packages\ModularFirstPersonController\DemoScene.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\gameManager.cs
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\gameManager.cs
+        projectPath: Assets\Scripts\gameManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\gameManager.cs.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\gameManager.cs.meta
+        projectPath: Assets\Scripts\gameManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\interactionHandler.cs
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\interactionHandler.cs
+        projectPath: Assets\Scripts\interactionHandler.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\mopManager.cs
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\mopManager.cs
+        projectPath: Assets\Scripts\mopManager.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\restockManager.cs
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\restockManager.cs
+        projectPath: Assets\Scripts\restockManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\restockManager.cs.meta
+        fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\restockManager.cs.meta
+        projectPath: Assets\Scripts\restockManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: 1fa5bb3fe3705762418ce0457fe588efd2101971
       mergeA: 
       mergeB: 
@@ -6679,14 +7151,780 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-04-02T18:44:30.234-04:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-04-02T18:44:15.949-04:00
       cacheType: 5
     historyControl:
-      scroll: {x: 0, y: 8}
+      scroll: {x: 0, y: 0}
       entries:
+      - commitID: b231f28ac8c2b44c6ae7985cf08fe95e3d80e9e0
+        mergeA: 
+        mergeB: 
+        authorName: notaboxofjuice
+        authorEmail: 68351196+notaboxofjuice@users.noreply.github.com
+        commitEmail: 68351196+notaboxofjuice@users.noreply.github.com
+        commitName: notaboxofjuice
+        summary: Restocking Minigame v0.1
+        description: Restocking minigame now works. Also guards against multitasking.
+          Also I can't believe I didn't have a Game Manager already.
+        timeString: 2023-03-28T00:44:43.000-04:00
+        commitTimeString: 2023-03-28T00:44:43.000-04:00
+        changes:
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue1.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue2.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Blue3.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Brown.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Cyan.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green1.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Green2.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey1.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey2.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey3.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Grey4.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Orange.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Purple.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Red.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_White.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Materials\Prototype Grid\Prototype_512x512_Yellow.mat.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\ProBuilder Data.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\ProBuilder Data\Prototype Materials.asset
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\ProBuilder Data\Prototype Materials.asset.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue1.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue2.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_blue3.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_brown.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_cyan.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green1.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_green2.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey1.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey2.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey3.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_grey4.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_orange.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_purple.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_red.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_white.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox Prototype
+            Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+          projectPath: Assets\Packages\ModularFirstPersonController\DemoScene\Gridbox
+            Prototype Materials\Resources\Textures\Prototype Grid\prototype_512x512_yellow.png.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Prefabs\FirstPersonController.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\FirstPersonController.prefab
+          projectPath: Assets\Prefabs\FirstPersonController.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Game Manager.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Game Manager.prefab
+          projectPath: Assets\Prefabs\Game Manager.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Game Manager.prefab.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Game Manager.prefab.meta
+          projectPath: Assets\Prefabs\Game Manager.prefab.meta
+          originalPath: Assets\Packages\ModularFirstPersonController\DemoScene\Demo.unity.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Mopping\mopHolder.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\Mopping\mopHolder.prefab
+          projectPath: Assets\Prefabs\Mopping\mopHolder.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\dialogueManager.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\dialogueManager.prefab
+          projectPath: Assets\Prefabs\dialogueManager.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\npcHolder.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\npcHolder.prefab
+          projectPath: Assets\Prefabs\npcHolder.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\restockHolder.prefab
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\restockHolder.prefab
+          projectPath: Assets\Prefabs\restockHolder.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\restockHolder.prefab.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Prefabs\restockHolder.prefab.meta
+          projectPath: Assets\Prefabs\restockHolder.prefab.meta
+          originalPath: Assets\Packages\ModularFirstPersonController\DemoScene.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\gameManager.cs
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\gameManager.cs
+          projectPath: Assets\Scripts\gameManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\gameManager.cs.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\gameManager.cs.meta
+          projectPath: Assets\Scripts\gameManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\interactionHandler.cs
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\interactionHandler.cs
+          projectPath: Assets\Scripts\interactionHandler.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\mopManager.cs
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\mopManager.cs
+          projectPath: Assets\Scripts\mopManager.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\restockManager.cs
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\restockManager.cs
+          projectPath: Assets\Scripts\restockManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\restockManager.cs.meta
+          fullPath: C:\GameDev\Unity\Mall Mom\Assets\Scripts\restockManager.cs.meta
+          projectPath: Assets\Scripts\restockManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: 1fa5bb3fe3705762418ce0457fe588efd2101971
         mergeA: 
         mergeB: 
@@ -13321,7 +14559,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/notaboxofjuice/mallMom.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -13332,13 +14570,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-03-31T23:20:55.024-04:00
+    updatedTimeString: 2023-04-02T18:45:50.509-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-03-31T23:23:02.417-04:00
+    updatedTimeString: 2023-04-02T18:46:02.429-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-03-31T23:23:02.411-04:00
+    updatedTimeString: 2023-04-02T18:46:02.423-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -13356,12 +14594,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.9991427
+  repositoryProgressValue: 0
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13381,10 +14619,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 846
-    width: 478
-    height: 504
+    x: 0
+    y: 733
+    width: 1137
+    height: 618
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13403,22 +14641,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\GameDev\Unity\Mall Mom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f84e0000
-    m_LastClickedID: 20216
-    m_ExpandedIDs: 00000000f64e0000f84e0000fa4e000000ca9a3b
+    m_SelectedIDs: 764f0000
+    m_LastClickedID: 20342
+    m_ExpandedIDs: 00000000764f0000784f00007a4f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13446,7 +14684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f64e0000f84e0000fa4e0000
+    m_ExpandedIDs: 00000000764f0000784f00007a4f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -13490,7 +14728,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -13502,7 +14740,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13522,10 +14760,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 786
-    y: 81
-    width: 492
-    height: 1269
+    x: 1867
+    y: 73
+    width: 692
+    height: 1278
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13544,7 +14782,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13564,10 +14802,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 81
-    width: 216
-    height: 744
+    x: 0
+    y: 73
+    width: 514
+    height: 639
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13576,9 +14814,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 24500000
-      m_LastClickedID: 20516
-      m_ExpandedIDs: 12ecffff24500000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cf1ffffc4f1ffff88f4ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -13594,7 +14832,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -13602,7 +14840,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13622,10 +14860,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 218
-    y: 81
-    width: 566
-    height: 489
+    x: 515
+    y: 73
+    width: 509
+    height: 639
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13636,7 +14874,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -1}
+      snapOffsetDelta: {x: -101, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -13669,7 +14907,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -13713,7 +14951,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 0
@@ -13735,7 +14973,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 2
@@ -13746,7 +14984,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 3
@@ -13757,7 +14995,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Navmesh Display
       index: 4
@@ -13768,7 +15006,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Agent Display
       index: 5
@@ -13779,7 +15017,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Obstacle Display
       index: 6
@@ -13790,7 +15028,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 7
@@ -13801,7 +15039,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 8
@@ -13812,7 +15050,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 9
@@ -13823,7 +15061,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
       index: 10
@@ -13853,17 +15091,17 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
-  m_OverrideSceneCullingMask: 0
-  m_SceneIsLit: 0
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -2.9048977, y: 0.37780428, z: 2.2375736}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -2.9048977, y: 0.37780428, z: 2.2375736}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -13875,7 +15113,7 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 1
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -13910,13 +15148,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.14416203, y: 0.84828484, z: -0.29369932, w: 0.4163807}
+    m_Target: {x: -0.09678135, y: -0.88879204, z: 0.22062235, w: -0.38988784}
     speed: 2
-    m_Value: {x: 0.1441619, y: 0.848284, z: -0.29369906, w: 0.41638032}
+    m_Value: {x: -0.096781135, y: -0.88879, z: 0.22062184, w: -0.38988695}
   m_Size:
-    m_Target: 10
+    m_Target: 8.444436
     speed: 2
-    m_Value: 10
+    m_Value: 8.444436
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -13941,7 +15179,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13961,10 +15199,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 218
-    y: 591
-    width: 566
-    height: 234
+    x: 1026
+    y: 73
+    width: 839
+    height: 639
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -13976,7 +15214,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 379, y: 213}
+  m_TargetSize: {x: 839, y: 472}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -13991,17 +15229,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -189.5
-    m_HBaseRangeMax: 189.5
-    m_VBaseRangeMin: -106.5
-    m_VBaseRangeMax: 106.5
+    m_HBaseRangeMin: -419.5
+    m_HBaseRangeMax: 419.5
+    m_VBaseRangeMin: -236
+    m_VBaseRangeMax: 236
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 1
+    m_HSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -14012,29 +15250,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 566
-      height: 213
-    m_Scale: {x: 1.0608999, y: 1.0609}
-    m_Translation: {x: 283, y: 106.49997}
+      width: 839
+      height: 618
+    m_Scale: {x: 1.0608999, y: 1.0608999}
+    m_Translation: {x: 419.50006, y: 309}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -266.75467
-      y: -100.38644
-      width: 533.50934
-      height: 200.77293
+      x: -395.4191
+      y: -291.26218
+      width: 790.8381
+      height: 582.52435
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 566, y: 234}
+  m_LastWindowPixelSize: {x: 839, y: 639}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &22
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14054,10 +15292,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 480
-    y: 846
-    width: 304
-    height: 504
+    x: 1138
+    y: 733
+    width: 727
+    height: 618
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
