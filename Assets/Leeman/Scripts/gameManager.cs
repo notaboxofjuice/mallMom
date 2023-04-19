@@ -47,7 +47,6 @@ public class gameManager : MonoBehaviour
         fetchText.text = ""; // empty fetch text
         heldText.text = ""; // empty held item
     }
-    // PRIVATE METHODS
     // PUBLIC METHODS
     public static gameManager GetInstance() { // other script references me
         return instance; // it's this one here i am :)
