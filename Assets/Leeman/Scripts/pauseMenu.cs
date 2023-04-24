@@ -7,8 +7,10 @@ public class pauseMenu : MonoBehaviour
 { // singleton class
     // VARIABLES
     public GameObject menuHere; // menu to show/hide
+    public bool stillTime = true; // is there still time?
     private bool isPaused = false;
     private static pauseMenu instance;
+    public TextMeshProUGUI pauseText;
     [Header("To Do List Texts")]
     public TextMeshProUGUI restockText;
     public TextMeshProUGUI spillText;
@@ -24,7 +26,7 @@ public class pauseMenu : MonoBehaviour
     }
     // UPDATE
     private void Update() {
-        if (Input.GetButtonDown("Cancel")) { // player presses cancel
+        if (Input.GetButtonDown("Cancel") && stillTime) { // player presses cancel and there is still time
             Pause(isPaused); // send pause bool to function
         }
     }
@@ -34,7 +36,7 @@ public class pauseMenu : MonoBehaviour
     }
     public void Restart() { // restart button
         UnityEngine.SceneManagement.SceneManager.LoadScene(0); // load scene 0
-        Pause(isPaused); // unpause
+        Pause(true); // unpause
     }
     public void Quit() { // quit button
         Application.Quit(); // quit the game
@@ -58,8 +60,7 @@ public class pauseMenu : MonoBehaviour
                 break;
         }
     }
-    // PRIVATE METHODS
-    private void Pause(bool currentPause) { // pause the game
+    public void Pause(bool currentPause) { // pause the game
         isPaused = !currentPause; // toggle; if paused, unpause
         if (isPaused) { // if game is paused
             Time.timeScale = 0; // pause time

@@ -556,6 +556,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuHere: {fileID: 2933100641754120804}
+  stillTime: 1
+  pauseText: {fileID: 7734985530701001794}
   restockText: {fileID: 3342734006750369242}
   spillText: {fileID: 5193215730198903704}
   fetchText: {fileID: 3492635598419449930}
@@ -596,7 +598,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -64}
-  m_SizeDelta: {x: 256, y: 128}
+  m_SizeDelta: {x: 1024, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &116722784318969780
 CanvasRenderer:
