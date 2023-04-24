@@ -33,6 +33,5 @@ public class fetchManager : MonoBehaviour
         }
         gameManager.GetInstance().heldFetch = null; // clear held fetch
         gameManager.GetInstance().occupied = false; // player is unoccupied
-        gameManager.GetInstance().FetchUI(); // update UI
     }
 }

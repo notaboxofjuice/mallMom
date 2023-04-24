@@ -7,8 +7,6 @@ public class mopManager : MonoBehaviour
 {
     private GameObject[] spills;
     int spillCount;
-    [Tooltip("Drag in the spillText TMP object here")]
-    [SerializeField] TextMeshProUGUI spillText;
     private void Awake() { // initiate list of spills
         // initiate list of spills
         spills = GameObject.FindGameObjectsWithTag("Spill");
@@ -16,13 +14,12 @@ public class mopManager : MonoBehaviour
         Debug.Log("Spills: " + spillCount);
     }
     private void Start() {
-        spillText.enabled = false; // disable the textbox
-        updateSpills();
+        pauseMenu.GetInstance().ListUpdate("spill", "?????"); // empty spills on todo list
     }
     public void mopPickup()
     { // when the player picks up the mop
         Debug.Log("Picked up mop");
-        spillText.enabled = true; // bring the text back
+        updateSpills();
         // teleport mop to player
         transform.position = GameObject.FindWithTag("Player").transform.position;
         // set player as parent transform
@@ -38,11 +35,11 @@ public class mopManager : MonoBehaviour
     { // updates spillText
         if (spillCount > 0)
         { // if there are still spills remaining
-            spillText.text = ("Spills remaining: " + spillCount); // update the text
+            pauseMenu.GetInstance().ListUpdate("spill", "Clean up spills: " + spillCount); // update the text
         }
         else
         { // if all spills cleaned
-            spillText.enabled = false; // hide text
+            pauseMenu.GetInstance().ListUpdate("spill", "All spills cleaned!"); // remove spills from to-do
             Destroy(this.gameObject); // destroy mop
             Destroy(gameManager.GetInstance().tapeMop); // destroy piece of tape blocking the escalator
             gameManager.GetInstance().occupied = false; // player is no longer occupied
