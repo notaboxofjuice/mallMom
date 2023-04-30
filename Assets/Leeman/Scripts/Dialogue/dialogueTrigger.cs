@@ -14,7 +14,7 @@ public class dialogueTrigger : MonoBehaviour
     void Start(){
         player = GameObject.FindWithTag("Player").transform; // find player transform
     }
-    private void Update()
+    private void LateUpdate()
     {
         if (playerInRange) { // if the player is close
             transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z)); // look at player

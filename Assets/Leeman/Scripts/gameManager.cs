@@ -21,7 +21,6 @@ public class gameManager : MonoBehaviour
     public int shelfTotal; // Total shelves to restock
     [Tooltip("Restocked shelves")]
     public int shelfCurrent = 0; // Restocked shelves
-    [SerializeField] TextMeshProUGUI shelfText;
     [Header("Fetch Minigame")]
     [Tooltip("Currently held fetch item")]
     public GameObject heldFetch;
@@ -30,8 +29,6 @@ public class gameManager : MonoBehaviour
     public int fetchTotal;
     [Tooltip("Count of fetched items")]
     public int fetchCount = 0;
-    [SerializeField] TextMeshProUGUI fetchText;
-    [SerializeField] TextMeshProUGUI heldText;
     // INTERNAL VARS
     [Header("Private Vars")]
     private static gameManager instance;
@@ -43,38 +40,38 @@ public class gameManager : MonoBehaviour
         instance = this; // it's me i'm the instance
     }
     private void Start() {
-        shelfText.text = ""; // empty shelf text
-        fetchText.text = ""; // empty fetch text
-        heldText.text = ""; // empty held item
+        pauseMenu.GetInstance().ListUpdate("restock", "?????");
+        pauseMenu.GetInstance().ListUpdate("fetch", "?????");
+        pauseMenu.GetInstance().ListUpdate("heldItem", "?????");
     }
-    // PRIVATE METHODS
     // PUBLIC METHODS
     public static gameManager GetInstance() { // other script references me
         return instance; // it's this one here i am :)
     }
     public void AddShelf() { // triggered on restock
         shelfCurrent += 1; // increment counter
+        RestockUI(); // update my UI
         if (shelfCurrent == shelfTotal) {
             Destroy(tapeStock); // destroy a piece of tape
-            Destroy(shelfText.transform.parent.gameObject); // destory restockUI
+            pauseMenu.GetInstance().ListUpdate("restock", "All shelves restocked!"); // remove restock from pause menu
             occupied = false; // player no longer in minigame
         }
-        RestockUI(); // update my UI
     }
     public void AddFetch() { // triggered on successful fetch
         fetchCount += 1; // increment counter
+        FetchUI();
         if (fetchCount == fetchTotal) { 
             Destroy(tapeFetch); // destroy a piece of tape
-            Destroy(fetchText.transform.parent.gameObject); // destroy fetchUI
+            pauseMenu.GetInstance().ListUpdate("fetch", "All customers helped!"); // remove fetch from pause menu
             occupied = false;
         }
-        heldText.text = "";
+        pauseMenu.GetInstance().ListUpdate("heldItem", ""); // remove held item from pause menu
     }
     public void RestockUI() {
-        shelfText.text = "Empty Shelves Remaining: " + (shelfTotal - shelfCurrent).ToString();
+        pauseMenu.GetInstance().ListUpdate("restock", "Restock " + (shelfTotal - shelfCurrent).ToString() + " shelves");
     }
     public void FetchUI() {
-        fetchText.text = "Items to Fetch: " + (fetchTotal - fetchCount).ToString();
-        heldText.text = "Picked up: " + heldFetch.name.ToString();
+        pauseMenu.GetInstance().ListUpdate("fetch", "Fetch " + (fetchTotal - fetchCount).ToString() + " items");
+        pauseMenu.GetInstance().ListUpdate("heldItem", "Holding: " + heldFetch.name.ToString());
     }
 }
