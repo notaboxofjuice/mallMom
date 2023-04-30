@@ -69,7 +69,7 @@ public class pauseMenu : MonoBehaviour
             Time.timeScale = 1; // unpause time
             Cursor.lockState = CursorLockMode.Locked; // lock cursor
         }
-        GameObject.FindWithTag("Player").GetComponent<FirstPersonController>().enabled = !isPaused; // enable/disable player
+        GameObject.FindWithTag("Player").GetComponent<FirstPersonController>().enabled = currentPause; // enable/disable player
         menuHere.SetActive(isPaused); // show/hide menu based on pause
     }
 }
