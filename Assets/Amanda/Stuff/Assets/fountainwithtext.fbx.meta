@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: 52c9de9152943d248998071df2ca18d0
+guid: 14e41fcc6b902674e9be78a09cc1d993
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marble062_2K
+    second: {fileID: 2100000, guid: a4078e291375f9f408809f5d4b2e631a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: 237fb0b9c7bd33b45aa81967c7ad7ea7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
