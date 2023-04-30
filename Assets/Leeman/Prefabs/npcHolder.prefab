@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6133276878541469237}
   - component: {fileID: 4600151671606017939}
   - component: {fileID: 7564347715732307313}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: npcHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

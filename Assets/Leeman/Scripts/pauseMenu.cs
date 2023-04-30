@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class pauseMenu : MonoBehaviour
@@ -35,7 +36,8 @@ public class pauseMenu : MonoBehaviour
         return instance; // it's this one here i am :)
     }
     public void Restart() { // restart button
-        UnityEngine.SceneManagement.SceneManager.LoadScene(0); // load scene 0
+        Scene currentScene = SceneManager.GetActiveScene(); // get current scene
+        SceneManager.LoadScene(currentScene.name); // load currentScene
         Pause(true); // unpause
     }
     public void Quit() { // quit button
