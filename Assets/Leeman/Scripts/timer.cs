@@ -17,8 +17,16 @@ public class timer : MonoBehaviour
     }
     private void TimerText() {
         int minutesLeft = Mathf.FloorToInt(timeLeft / 60); // minutes left
+        string minutesString = minutesLeft.ToString(); // convert to string
+        if (minutesLeft < 10) { // add a leading 0 if less than 10
+            minutesString = "0" + minutesString;
+        }
         int secondsLeft = Mathf.FloorToInt(timeLeft % 60); // seconds left
-        timerText.text = "Time Left: " + minutesLeft.ToString() + ":" + secondsLeft.ToString();
+        string secondsString = secondsLeft.ToString(); // convert to string
+        if (secondsLeft < 10) { // add a leading 0 if less than 10
+            secondsString = "0" + secondsString;
+        }
+        timerText.text = "Time Left: " + minutesString + ":" + secondsString; // update text
     }
     private void TimeOut() {
         pauseMenu.GetInstance().stillTime = false; // no more time
