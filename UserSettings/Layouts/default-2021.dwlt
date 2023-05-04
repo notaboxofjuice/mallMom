@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 79
+  controlID: 125
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +64,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1466
+    x: 1400
     y: 0
-    width: 454
+    width: 520
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 355
+    width: 337
     height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 561
-    width: 1466
+    width: 1400
     height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
+    width: 1400
     height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 69
+  controlID: 126
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1466
+    width: 1400
     height: 561
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 70
+  controlID: 127
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 355
+    x: 337
     y: 0
-    width: 1111
+    width: 1063
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -277,7 +277,7 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,10 +327,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1462
-    y: 81
-    width: 449
-    height: 910
+    x: 1466
+    y: 73
+    width: 453
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -339,9 +339,9 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -524,13 +524,355 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 0ccd839cbb4143847a2bf475235b2f65
+        - 6d6c0c4af8534df46a04e23ad6826249
+        - 3e8e38026d59c70469a9c539dc196c64
+        - b3f0c4770e6e602428f44c5903c46f0d
+        - 83ea4a04138a6d94ba2de6112e5c7f91
+        - 6c9bae009ad42a54c9a16c8500e1bf89
+        - 885a1b60c8f35c44d9fa49797330ef53
+        - d31d32bed50c6ee47a3967baf11c97c5
+        - de63e1e00ff561d43b99f08b8fb96d09
+        - c0714692f2aacc34eb32a57ed0f39f05
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda
+          label: Amanda
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Scenes
+          label: Scenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Scenes\mapAlpha.unity
+          label: mapAlpha.unity
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Scenes\mapAlpha.unity
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Scenes\mapAlpha.unity
+            projectPath: Assets\Amanda\Scenes\mapAlpha.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Amanda\Stuff
+          label: Stuff
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Assets
+          label: Assets
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+          label: jerrysign.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
+            projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Amanda\Stuff\Materials
+          label: Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Materials\jerrys.mat
+          label: jerrys.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Stuff\Materials\jerrys.mat
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
+            projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Amanda\Stuff\Materials\textureimages
+          label: textureimages
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+          label: jerrys.png
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+            projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
       folders:
         keys:
+        - Assets
+        - Assets\Amanda
+        - Assets\Amanda\Scenes
+        - Assets\Amanda\Stuff
+        - Assets\Amanda\Stuff\Assets
+        - Assets\Amanda\Stuff\Materials
+        - Assets\Amanda\Stuff\Materials\textureimages
         - UserSettings
         - UserSettings\Layouts
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda
+          label: Amanda
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Scenes
+          label: Scenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff
+          label: Stuff
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Assets
+          label: Assets
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Materials
+          label: Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Amanda\Stuff\Materials\textureimages
+          label: textureimages
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
@@ -595,6 +937,258 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda
+        label: Amanda
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Scenes
+        label: Scenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Scenes\mapAlpha.unity
+        label: mapAlpha.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Scenes\mapAlpha.unity
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Scenes\mapAlpha.unity
+          projectPath: Assets\Amanda\Scenes\mapAlpha.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Amanda\Stuff
+        label: Stuff
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Stuff\Assets
+        label: Assets
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+        label: jerrysign.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
+          projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+        label: jerrysign.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+          projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Materials
+        label: Materials
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Stuff\Materials\jerrys.mat
+        label: jerrys.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Materials\jerrys.mat
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
+          projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+        label: jerrys.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+          projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Materials\textureimages
+        label: textureimages
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+        label: jerrys.png
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+          projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+        label: jerrys.png.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+          projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -669,21 +1263,63 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: Assets\Amanda\Scenes\mapAlpha.unity
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Scenes\mapAlpha.unity
+      projectPath: Assets\Amanda\Scenes\mapAlpha.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
+      projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+      projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Materials\jerrys.mat
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
+      projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+      projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+      projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+      projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: UserSettings\Layouts\default-2021.dwlt
       fullPath: C:\Users\cmoon\gitmallmom\UserSettings\Layouts\default-2021.dwlt
       projectPath: UserSettings\Layouts\default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    changedFilesText: 8 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-04-29T20:46:17.738-04:00
+      updatedTimeString: 2023-05-03T17:48:11.504-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-04-29T20:58:16.127-04:00
+      updatedTimeString: 2023-05-03T18:21:05.761-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-04-29T19:03:19.277-04:00
+      updatedTimeString: 2023-05-03T17:48:13.403-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -21960,13 +22596,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-04-20T13:43:31.622-04:00
+    updatedTimeString: 2023-04-30T20:50:55.712-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-04-20T14:02:53.081-04:00
+    updatedTimeString: 2023-04-30T20:51:10.017-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-04-20T14:02:53.076-04:00
+    updatedTimeString: 2023-04-30T20:51:10.009-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -21984,8 +22620,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Fetched
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
@@ -22011,7 +22647,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-    width: 1465
+    width: 1399
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -22031,36 +22667,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Amanda/Stuff/Materials
+    - Assets/Amanda/Stuff/Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Amanda/Stuff/Materials
+  - Assets/Amanda/Stuff/Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\cmoon\gitmallmom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 3a5e0000
-    m_LastClickedID: 24122
-    m_ExpandedIDs: 00000000845d0000d45d0000e65d00003a5e00006a700000c4900000a091000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: da620000
+    m_LastClickedID: 25306
+    m_ExpandedIDs: 00000000d2620000d4620000d6620000d8620000da62000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: wood1
-      m_OriginalName: wood1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 28790
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -22074,7 +22710,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000845d0000
+    m_ExpandedIDs: 00000000d2620000d4620000d6620000d8620000da620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22150,9 +22786,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1400
     y: 73
-    width: 453
+    width: 519
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -22194,7 +22830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 354
+    width: 336
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -22203,26 +22839,26 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1752}
+      scrollPos: {x: 0, y: 9}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4c27feff4c40feff9c54feff881effffe0dcffffecdcffffd6f9ffff2cfaffff86fafffffcfaffff36fbffffac4d0000164f0000624f0000d04f0000e84f0000885000001c5100004a510000845400008c540000a8540000bc550000be550000b8560000e6570000c8580000005900001e8200004883000036840000a4840000268500004a850000868500000c86000040860000d086000024890000248a0000748a0000a08a0000c68b0000c88b0000408d00004e8d0000808e00000c8f0000bc8f000050900000
+      m_ExpandedIDs: 36fbffff22540000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Circle.002
-        m_OriginalName: Circle.002
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -109432
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -22250,9 +22886,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 355
+    x: 337
     y: 73
-    width: 1109
+    width: 1061
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -22489,9 +23125,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 42.70808, y: -31.93515, z: 14.380737}
+    m_Target: {x: -31.945656, y: -95.3461, z: 163.04268}
     speed: 2
-    m_Value: {x: 42.70808, y: -31.93515, z: 14.380737}
+    m_Value: {x: -31.945656, y: -95.3461, z: 163.04268}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -22538,20 +23174,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2922424, y: 0.42505038, z: -0.14713351, w: 0.84403586}
+    m_Target: {x: -0.2409529, y: -0.000921461, z: 0.00010841609, w: -0.9707058}
     speed: 2
-    m_Value: {x: 0.2924455, y: 0.42375877, z: -0.14668632, w: 0.84462255}
+    m_Value: {x: -0.24091034, y: -0.0052887434, z: 0.0011925033, w: -0.9705322}
   m_Size:
-    m_Target: 52.275696
+    m_Target: 133.63042
     speed: 2
-    m_Value: 50.02459
+    m_Value: 127.87599
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.06047
-    m_SpeedNormalized: 0.53
+    m_Speed: 1.1204399
+    m_SpeedNormalized: 0.55999994
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
