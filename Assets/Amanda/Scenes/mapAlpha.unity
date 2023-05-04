@@ -3806,11 +3806,11 @@ GameObject:
   - component: {fileID: 406417229}
   - component: {fileID: 406417228}
   - component: {fileID: 406417227}
-  - component: {fileID: 406417231}
   - component: {fileID: 406417232}
+  - component: {fileID: 406417231}
   m_Layer: 0
   m_Name: Special Sphere
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3886,7 +3886,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406417226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.842, z: -0.605}
+  m_LocalPosition: {x: -0.062, y: 2.842, z: -0.871}
   m_LocalScale: {x: 0.90846115, y: 0.90846115, z: 0.90846115}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3903,9 +3903,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3cc51e07658f8244c95efb4bce832d5c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3913,8 +3913,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0
+  MaxDistance: 4
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -3949,7 +3949,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4333,7 +4333,7 @@ GameObject:
   - component: {fileID: 451437837}
   m_Layer: 0
   m_Name: SHRINE
-  m_TagString: Untagged
+  m_TagString: Shelf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
