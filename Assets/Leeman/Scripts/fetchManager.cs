@@ -18,6 +18,7 @@ public class fetchManager : MonoBehaviour
         npcBody.GetComponent<dialogueTrigger>().inkJSON = defaultInk; // set ink to default
     }
     public void FetchPickup() {
+        Debug.Log("Picked up fetch");
         gameManager.GetInstance().heldFetch = targetFetch; // player's fetch is target fetch
         gameManager.GetInstance().FetchUI(); // update fetch UI
     }
