@@ -19,6 +19,8 @@ public class fetchManager : MonoBehaviour
     }
     public void FetchPickup() {
         Debug.Log("Picked up fetch");
+        targetFetch.transform.SetParent(GameObject.FindWithTag("Player").transform); // set fetch parent to player
+        targetFetch.transform.localPosition = new Vector3(0, 0, 1); // set fetch position
         gameManager.GetInstance().heldFetch = targetFetch; // player's fetch is target fetch
         gameManager.GetInstance().FetchUI(); // update fetch UI
     }
