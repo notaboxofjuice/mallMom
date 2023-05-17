@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 125
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,14 +68,14 @@ MonoBehaviour:
     y: 0
     width: 520
     height: 947
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 16}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,13 +93,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 337
+    width: 338
     height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -123,10 +123,10 @@ MonoBehaviour:
     height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 15}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 126
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 127
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,20 +265,86 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 337
+    x: 338
     y: 0
-    width: 1063
+    width: 1062
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 338
+    y: 73
+    width: 1060
+    height: 540
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -5204351295594914843, guid: 6518a593da929b24fbb73abbd53f250a, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.7225
+      e01: 0
+      e02: 0
+      e03: -35.382507
+      e10: 0
+      e11: 0.7225
+      e12: 0
+      e13: 144.76747
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 6518a593da929b24fbb73abbd53f250a, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -5204351295594914843, guid: 6518a593da929b24fbb73abbd53f250a, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -307,7 +373,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,23 +393,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1466
+    x: 1400
     y: 73
-    width: 453
+    width: 519
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 424.60585030000004
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -515,9 +581,9 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -531,11 +597,11 @@ MonoBehaviour:
         - 3e8e38026d59c70469a9c539dc196c64
         - b3f0c4770e6e602428f44c5903c46f0d
         - 83ea4a04138a6d94ba2de6112e5c7f91
-        - 6c9bae009ad42a54c9a16c8500e1bf89
-        - 885a1b60c8f35c44d9fa49797330ef53
-        - d31d32bed50c6ee47a3967baf11c97c5
-        - de63e1e00ff561d43b99f08b8fb96d09
-        - c0714692f2aacc34eb32a57ed0f39f05
+        - 26b459b3e820cb64784199a144165fcf
+        - 014a629afe6a07849bfe47e4e4f32880
+        - 6518a593da929b24fbb73abbd53f250a
+        - 9bf8849770fbd684b851b970f119ec87
+        - c5f4531711da9a24d89b6454a7e74b94
         values:
         - path: Assets
           label: Assets
@@ -645,8 +711,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
-          label: jerrysign.fbx
+        - path: Assets\Amanda\Stuff\Assets\boring npc.fbx
+          label: boring npc.fbx
           level: 4
           isFolder: 0
           isContainer: 1
@@ -657,32 +723,15 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
-            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
-            projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+            path: Assets\Amanda\Stuff\Assets\boring npc.fbx
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\boring
+              npc.fbx
+            projectPath: Assets\Amanda\Stuff\Assets\boring npc.fbx
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Amanda\Stuff\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Amanda\Stuff\Materials\jerrys.mat
-          label: jerrys.mat
+        - path: Assets\Amanda\Stuff\Assets\escalator.blend
+          label: escalator.blend
           level: 4
           isFolder: 0
           isContainer: 1
@@ -693,33 +742,15 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Amanda\Stuff\Materials\jerrys.mat
-            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
-            projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+            path: Assets\Amanda\Stuff\Assets\escalator.blend
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escalator.blend
+            projectPath: Assets\Amanda\Stuff\Assets\escalator.blend
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: Assets\Amanda\Stuff\Materials\textureimages
-          label: textureimages
+        - path: Assets\Amanda\Stuff\Assets\escaltor.controller
+          label: escaltor.controller
           level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-          label: jerrys.png
-          level: 5
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -729,9 +760,46 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-            projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+            path: Assets\Amanda\Stuff\Assets\escaltor.controller
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escaltor.controller
+            projectPath: Assets\Amanda\Stuff\Assets\escaltor.controller
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Amanda\Stuff\Assets\jerry.fbx
+          label: jerry.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Stuff\Assets\jerry.fbx
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerry.fbx
+            projectPath: Assets\Amanda\Stuff\Assets\jerry.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+          label: npcblend 1.fbx
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+            fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\npcblend
+              1.fbx
+            projectPath: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
@@ -742,8 +810,6 @@ MonoBehaviour:
         - Assets\Amanda\Scenes
         - Assets\Amanda\Stuff
         - Assets\Amanda\Stuff\Assets
-        - Assets\Amanda\Stuff\Materials
-        - Assets\Amanda\Stuff\Materials\textureimages
         - UserSettings
         - UserSettings\Layouts
         values:
@@ -822,42 +888,6 @@ MonoBehaviour:
         - path: Assets\Amanda\Stuff\Assets
           label: Assets
           level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Amanda\Stuff\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Amanda\Stuff\Materials\textureimages
-          label: textureimages
-          level: 4
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1045,8 +1075,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
-        label: jerrysign.fbx
+      - path: Assets\Amanda\Stuff\Assets\boring npc.fbx
+        label: boring npc.fbx
         level: 4
         isFolder: 0
         isContainer: 1
@@ -1057,14 +1087,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
-          projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+          path: Assets\Amanda\Stuff\Assets\boring npc.fbx
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\boring npc.fbx
+          projectPath: Assets\Amanda\Stuff\Assets\boring npc.fbx
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
-        label: jerrysign.fbx.meta
+      - path: Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
+        label: boring npc.fbx.meta
         level: 5
         isFolder: 0
         isContainer: 0
@@ -1075,32 +1105,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
-          projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+          path: Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
+          projectPath: Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Amanda\Stuff\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Amanda\Stuff\Materials\jerrys.mat
-        label: jerrys.mat
+      - path: Assets\Amanda\Stuff\Assets\escalator.blend
+        label: escalator.blend
         level: 4
         isFolder: 0
         isContainer: 1
@@ -1111,14 +1123,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Materials\jerrys.mat
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
-          projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+          path: Assets\Amanda\Stuff\Assets\escalator.blend
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escalator.blend
+          projectPath: Assets\Amanda\Stuff\Assets\escalator.blend
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
-        label: jerrys.mat.meta
+      - path: Assets\Amanda\Stuff\Assets\escalator.blend.meta
+        label: escalator.blend.meta
         level: 5
         isFolder: 0
         isContainer: 0
@@ -1129,33 +1141,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat.meta
-          projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+          path: Assets\Amanda\Stuff\Assets\escalator.blend.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escalator.blend.meta
+          projectPath: Assets\Amanda\Stuff\Assets\escalator.blend.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Amanda\Stuff\Materials\textureimages
-        label: textureimages
+      - path: Assets\Amanda\Stuff\Assets\escaltor.controller
+        label: escaltor.controller
         level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-        label: jerrys.png
-        level: 5
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -1165,15 +1159,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-          projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+          path: Assets\Amanda\Stuff\Assets\escaltor.controller
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escaltor.controller
+          projectPath: Assets\Amanda\Stuff\Assets\escaltor.controller
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
-        label: jerrys.png.meta
-        level: 6
+      - path: Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+        label: escaltor.controller.meta
+        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1183,9 +1177,83 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
-          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
-          projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+          path: Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+          projectPath: Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Assets\jerry.fbx
+        label: jerry.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\jerry.fbx
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerry.fbx
+          projectPath: Assets\Amanda\Stuff\Assets\jerry.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+        label: jerry.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+          projectPath: Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+        label: npcblend 1.fbx
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\npcblend
+            1.fbx
+          projectPath: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
+        label: npcblend 1.fbx.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
+          fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\npcblend
+            1.fbx.meta
+          projectPath: Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1269,39 +1337,63 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx
-      projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx
+    - path: Assets\Amanda\Stuff\Assets\boring npc.fbx
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\boring npc.fbx
+      projectPath: Assets\Amanda\Stuff\Assets\boring npc.fbx
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
-      projectPath: Assets\Amanda\Stuff\Assets\jerrysign.fbx.meta
+    - path: Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
+      projectPath: Assets\Amanda\Stuff\Assets\boring npc.fbx.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Amanda\Stuff\Materials\jerrys.mat
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat
-      projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat
+    - path: Assets\Amanda\Stuff\Assets\escalator.blend
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escalator.blend
+      projectPath: Assets\Amanda\Stuff\Assets\escalator.blend
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\jerrys.mat.meta
-      projectPath: Assets\Amanda\Stuff\Materials\jerrys.mat.meta
+    - path: Assets\Amanda\Stuff\Assets\escalator.blend.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escalator.blend.meta
+      projectPath: Assets\Amanda\Stuff\Assets\escalator.blend.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
-      projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png
+    - path: Assets\Amanda\Stuff\Assets\escaltor.controller
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escaltor.controller
+      projectPath: Assets\Amanda\Stuff\Assets\escaltor.controller
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
-      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
-      projectPath: Assets\Amanda\Stuff\Materials\textureimages\jerrys.png.meta
+    - path: Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+      projectPath: Assets\Amanda\Stuff\Assets\escaltor.controller.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Assets\jerry.fbx
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerry.fbx
+      projectPath: Assets\Amanda\Stuff\Assets\jerry.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+      projectPath: Assets\Amanda\Stuff\Assets\jerry.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+      projectPath: Assets\Amanda\Stuff\Assets\npcblend 1.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
+      fullPath: C:\Users\cmoon\gitmallmom\Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
+      projectPath: Assets\Amanda\Stuff\Assets\npcblend 1.fbx.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
@@ -1311,15 +1403,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 8 changed files
+    changedFilesText: 12 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-05-03T17:48:11.504-04:00
+      updatedTimeString: 2023-05-16T21:10:15.330-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-03T18:21:05.761-04:00
+      updatedTimeString: 2023-05-16T21:16:53.150-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-05-03T17:48:13.403-04:00
+      updatedTimeString: 2023-05-16T21:10:17.242-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -22596,13 +22688,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-04-30T20:50:55.712-04:00
+    updatedTimeString: 2023-05-07T16:36:44.743-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-04-30T20:51:10.017-04:00
+    updatedTimeString: 2023-05-16T21:16:53.155-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-04-30T20:51:10.009-04:00
+    updatedTimeString: 2023-05-16T21:16:53.150-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -22620,12 +22712,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Fetched
+  repositoryProgressValue: 0.9999194
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22679,10 +22771,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da620000
-    m_LastClickedID: 25306
-    m_ExpandedIDs: 00000000d2620000d4620000d6620000d8620000da62000000ca9a3b
+    scrollPos: {x: 0, y: 27}
+    m_SelectedIDs: ae630000
+    m_LastClickedID: 25518
+    m_ExpandedIDs: 00000000a6630000a8630000aa630000ac630000ae63000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22710,7 +22802,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2620000d4620000d6620000d8620000da620000
+    m_ExpandedIDs: 00000000a6630000a8630000aa630000ac630000ae630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22738,7 +22830,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c62300000000000090640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22766,7 +22858,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22798,7 +22890,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 481
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -22808,7 +22900,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22830,7 +22922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 336
+    width: 337
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -22839,10 +22931,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 9}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff22540000
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -22858,7 +22950,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -22866,7 +22958,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22886,9 +22978,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 337
+    x: 338
     y: 73
-    width: 1061
+    width: 1060
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -23125,9 +23217,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.945656, y: -95.3461, z: 163.04268}
+    m_Target: {x: 63.38043, y: -16.924902, z: 35.42974}
     speed: 2
-    m_Value: {x: -31.945656, y: -95.3461, z: 163.04268}
+    m_Value: {x: 63.38043, y: -16.924902, z: 35.42974}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -23174,13 +23266,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2409529, y: -0.000921461, z: 0.00010841609, w: -0.9707058}
+    m_Target: {x: -0.13195251, y: -0.6246451, z: 0.10798174, w: -0.762341}
     speed: 2
-    m_Value: {x: -0.24091034, y: -0.0052887434, z: 0.0011925033, w: -0.9705322}
+    m_Value: {x: -0.13176292, y: -0.62565756, z: 0.10815701, w: -0.7612446}
   m_Size:
-    m_Target: 133.63042
+    m_Target: 29.597439
     speed: 2
-    m_Value: 127.87599
+    m_Value: 30.992083
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -23205,7 +23297,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23225,9 +23317,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 355
+    x: 338
     y: 73
-    width: 1109
+    width: 1060
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -23240,7 +23332,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1109, y: 519}
+  m_TargetSize: {x: 1060, y: 519}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -23255,8 +23347,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -554.5
-    m_HBaseRangeMax: 554.5
+    m_HBaseRangeMin: -530
+    m_HBaseRangeMax: 530
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -23276,29 +23368,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1109
+      width: 1060
       height: 519
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 554.5, y: 259.5}
+    m_Translation: {x: 530, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -554.5
+      x: -530
       y: -259.5
-      width: 1109
+      width: 1060
       height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1109, y: 540}
+  m_LastWindowPixelSize: {x: 1060, y: 540}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
