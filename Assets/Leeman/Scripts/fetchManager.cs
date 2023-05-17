@@ -29,12 +29,13 @@ public class fetchManager : MonoBehaviour
             Debug.Log("Correct fetch");
             gameManager.GetInstance().AddFetch(); // increment fetched total
             npcBody.GetComponent<dialogueTrigger>().inkJSON = satisfiedInk;
+            gameManager.GetInstance().heldFetch = null; // clear held fetch
+            gameManager.GetInstance().occupied = false; // player is unoccupied
+            Destroy(targetFetch); // destroy fetch
             Destroy(this); // no double-dipping
         } else {
             Debug.Log("Wrong fetch");
             npcBody.GetComponent<dialogueTrigger>().inkJSON = negativeInk;
         }
-        gameManager.GetInstance().heldFetch = null; // clear held fetch
-        gameManager.GetInstance().occupied = false; // player is unoccupied
     }
 }
