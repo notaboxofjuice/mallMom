@@ -56,6 +56,7 @@ public class dialogueManager : MonoBehaviour
     private void ContinueStory() {
         if (currentStory.canContinue) { // make sure there's more dialogue to play
             dialogueText.text = currentStory.Continue();
+            npcBody.GetComponent<audioHandler>().PlayNext(); // play next audio clip
         } else { // empty JSON file
             ExitDialogueMode();
         }

@@ -7,6 +7,7 @@ public class mopManager : MonoBehaviour
 {
     private GameObject[] spills;
     int spillCount;
+    public GameObject mopNPC;
     private void Awake() { // initiate list of spills
         // initiate list of spills
         spills = GameObject.FindGameObjectsWithTag("Spill");
@@ -15,6 +16,7 @@ public class mopManager : MonoBehaviour
     }
     private void Start() {
         pauseMenu.GetInstance().ListUpdate("spill", "?????"); // empty spills on todo list
+
     }
     public void mopPickup()
     { // when the player picks up the mop
@@ -40,6 +42,7 @@ public class mopManager : MonoBehaviour
         else
         { // if all spills cleaned
             pauseMenu.GetInstance().ListUpdate("spill", "All spills cleaned!"); // remove spills from to-do
+            mopNPC.GetComponent<audioHandler>().SetClips("positive"); // set audio clips to positive
             Destroy(this.gameObject); // destroy mop
             Destroy(gameManager.GetInstance().tapeMop); // destroy piece of tape blocking the escalator
             gameManager.GetInstance().occupied = false; // player is no longer occupied
