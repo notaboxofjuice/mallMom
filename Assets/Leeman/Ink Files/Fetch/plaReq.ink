@@ -1,0 +1,1 @@
+Hey, have you seen any planters around here? I’m looking for one with a big blue flower in it… I hope it’s not on a low shelf… I can’t move my neck since the incident.
