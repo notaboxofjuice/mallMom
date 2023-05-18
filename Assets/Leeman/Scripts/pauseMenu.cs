@@ -25,6 +25,9 @@ public class pauseMenu : MonoBehaviour
         instance = this; // it's me i'm the instance
         menuHere.SetActive(false); // hide menu
     }
+    private void Start() {
+        Pause(true); // start the game unpaused
+    }
     // UPDATE
     private void Update() {
         if (Input.GetButtonDown("Cancel") && stillTime) { // player presses cancel and there is still time
@@ -36,8 +39,9 @@ public class pauseMenu : MonoBehaviour
         return instance; // it's this one here i am :)
     }
     public void Restart() { // restart button
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // load currentScene
         Pause(true); // unpause
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // load currentScene
+        Debug.Log("Reloaded Scene");
     }
     public void Quit() { // quit button
         Application.Quit(); // quit the game
@@ -65,10 +69,14 @@ public class pauseMenu : MonoBehaviour
         isPaused = !currentPause; // toggle; if paused, unpause
         if (isPaused) { // if game is paused
             Time.timeScale = 0; // pause time
+            Debug.Log("Time Scale: " + Time.timeScale);
             Cursor.lockState = CursorLockMode.None; // unlock cursor
+            Debug.Log("Cursor Lock State: " + Cursor.lockState);
         } else { // if game is not paused
             Time.timeScale = 1; // unpause time
+            Debug.Log("Time Scale: " + Time.timeScale);
             Cursor.lockState = CursorLockMode.Locked; // lock cursor
+            Debug.Log("Cursor Lock State: " + Cursor.lockState);
         }
         GameObject.FindWithTag("Player").GetComponent<FirstPersonController>().enabled = currentPause; // enable/disable player
         menuHere.SetActive(isPaused); // show/hide menu based on pause
