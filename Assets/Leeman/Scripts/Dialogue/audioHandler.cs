@@ -8,6 +8,12 @@ public class audioHandler : MonoBehaviour
     public AudioClip[] greetingClips;
     public AudioClip[] negativeClips;
     public AudioClip[] positiveClips;
-    private AudioClip[] currentClips;
+    public AudioClip[] currentClips;
     private int clipCount = 0;
+    public void SetClips() { // for setting the current array of clips
+    
+    }
+    public void PlayNext() {
+        
+    }
 }

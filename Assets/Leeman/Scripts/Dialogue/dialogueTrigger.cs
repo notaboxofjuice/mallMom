@@ -20,7 +20,7 @@ public class dialogueTrigger : MonoBehaviour
             transform.LookAt(new Vector3(player.position.x, transform.position.y, player.position.z)); // look at player
             Debug.Log("Looking"); // print to console thx babe
             if (playerInteracted) { // AND they have interacted
-                dialogueManager.GetInstance().EnterDialogueMode(inkJSON);
+                dialogueManager.GetInstance().EnterDialogueMode(inkJSON); // enter dialogue mode with current ink file
                 playerInteracted = false; // reset interact bool
             } // passes inkJSON to dialogue manager instance
         }

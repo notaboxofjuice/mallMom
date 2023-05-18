@@ -1049,6 +1049,70 @@ PrefabInstance:
       propertyPath: m_Name
       value: npcHolder
       objectReference: {fileID: 0}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: d1f8b0884684af34a91dc761c1bbda19, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: fa83c40466c6811448ae4a76b9ee7568, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 97bb5aa7e60b8124ea9eb98fa57056a0, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e35ad2cad1276e4c8b7e5fcca090a73, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02a48206637eade49b83dede6042a02c, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0cb7b69ff9af5944fac0cdbb8bb801b2, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: greetingClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8201513dc179a8f41b53b363b7512aed, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 648fbaa701b4d844e9b454d02318c5b9, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b2245c4810d1b594e87b18678ac8dd32, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f60a1dd2bd0245046b3e5ff73f59302a, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8ea0bee2d092ee34d88846ddce81813d, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 04b67c3cb0a93bb41be1847863708247, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: ebaac1766b0709a42adb67245081edb5, type: 3}
+    - target: {fileID: 4020253758392431105, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
+      propertyPath: positiveClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 761a536533f2a1f4ba44a439b39b0158, type: 3}
     - target: {fileID: 6133276878541469237, guid: 41bfe29f31b26584792c729dfc7a5936, type: 3}
       propertyPath: m_RootOrder
       value: 5
