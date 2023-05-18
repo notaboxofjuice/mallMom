@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 117
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 90
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 77
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 561
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -352,10 +352,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1593}
-      m_SelectedIDs: 6cf1fdff
-      m_LastClickedID: -134804
-      m_ExpandedIDs: 46fbfdff4afbfdff44fffdff4cfffdff50fffdffe8fffdffecfffdffca00fefff81cfeff88f8ffff8ef8ffff72f9ffffacf9ffffb4f9ffffc6f9ffffccf9ffff30fbffff34fbffff36fbffff8c4f0000545100008a52000082530000b0530000b6530000e853000014540000ba54000040550000965700009258000028590000485a00007e5c0000563d0200f43f02005c40020012410200
+      scrollPos: {x: 0, y: 617}
+      m_SelectedIDs: 06530000
+      m_LastClickedID: 21254
+      m_ExpandedIDs: 36fbffffb65100001253000058540000c0540000785500000456000092570000125b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -638,9 +638,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.862925, y: -2.8309422, z: 25.081604}
+    m_Target: {x: -20.88005, y: 0.36857748, z: 34.084625}
     speed: 2
-    m_Value: {x: 19.862925, y: -2.8309422, z: 25.081604}
+    m_Value: {x: -20.88005, y: 0.36857748, z: 34.084625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -687,13 +687,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06829053, y: 0.90284276, z: -0.15786034, w: 0.39481777}
+    m_Target: {x: 0.13810483, y: -0.20007208, z: 0.027817378, w: 0.9699041}
     speed: 2
-    m_Value: {x: 0.06886179, y: 0.9023389, z: -0.15916775, w: 0.39459866}
+    m_Value: {x: 0.13802224, y: -0.20146732, z: 0.028016245, w: 0.9693172}
   m_Size:
-    m_Target: 2.0400014
+    m_Target: 14.230905
     speed: 2
-    m_Value: 2.0400014
+    m_Value: 14.901471
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -947,36 +947,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Amanda/Stuff/Assets
+    - Assets/Amanda/Stuff/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Amanda/Stuff/Assets
+  - Assets/Amanda/Stuff/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\cmoon\gitmallmom
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 28640000
-    m_LastClickedID: 25640
-    m_ExpandedIDs: 000000002064000022640000246400002664000028640000ca64000000ca9a3b
+    m_SelectedIDs: 92670000
+    m_LastClickedID: 26514
+    m_ExpandedIDs: 000000008e6700009067000092670000946700009667000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Materials
-      m_OriginalName: Materials
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 25636
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -990,7 +990,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002064000022640000246400002664000028640000
+    m_ExpandedIDs: 000000008e67000090670000926700009467000096670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1104,7 +1104,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 18308.5762196
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
@@ -1347,13 +1347,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-05-17T22:07:45.021-04:00
+      updatedTimeString: 2023-05-17T22:10:18.135-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-17T22:09:01.923-04:00
+      updatedTimeString: 2023-05-17T22:17:34.761-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-05-17T22:01:57.243-04:00
+      updatedTimeString: 2023-05-17T22:10:01.337-04:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -22708,13 +22708,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-05-17T22:07:45.021-04:00
+    updatedTimeString: 2023-05-17T22:10:18.135-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-05-17T22:09:17.960-04:00
+    updatedTimeString: 2023-05-17T22:17:34.769-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-05-17T22:09:01.923-04:00
+    updatedTimeString: 2023-05-17T22:17:34.761-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -22732,8 +22732,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.9997839
-  repositoryProgressMessage: Fetched
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
