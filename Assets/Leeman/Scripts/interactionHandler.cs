@@ -15,11 +15,14 @@ public class interactionHandler : MonoBehaviour
         { // raycast hits && interact
             Transform hitObject = hit.transform; // get hit object's transform
             Debug.Log("Interacted with " + hitObject.name); // print to console
-            if (hitObject.tag == "NPC")
+            if (hitObject.tag == "End") {
+                Application.Quit();
+            }
+            else if (hitObject.tag == "NPC")
             { // if it's an NPC
                 dialogueManager.GetInstance().npcBody = hitObject.gameObject; // NPC is hit object
                 if (gameManager.GetInstance().heldFetch != null && hitObject.GetComponentInParent<fetchManager>() != null) { // player has fetch and NPC takes fetch
-                    Debug.Log("Trying to give fetch..."); // print to console
+                    Debug.Log("Trying to give " + gameManager.GetInstance().heldFetch.name + " to " + hitObject.name); // print to console
                     hitObject.GetComponentInParent<fetchManager>().TryFetch(); // attempt to give fetch
                 }
                 hitObject.GetComponent<dialogueTrigger>().playerInteracted = true; // trigger dialogue

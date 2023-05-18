@@ -512,6 +512,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4828400288187904467, guid: 5f01dcf458f98514cb0d4ced90f66d10, type: 3}
+      propertyPath: timeLeft
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4854694147831299191, guid: 5f01dcf458f98514cb0d4ced90f66d10, type: 3}
       propertyPath: m_Name
       value: Game Manager
@@ -727,9 +731,29 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2927184035164267774, guid: a442067a6213a1947b93acace1685024, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927184035164267774, guid: a442067a6213a1947b93acace1685024, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927184035164267774, guid: a442067a6213a1947b93acace1685024, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3186875592614823763, guid: a442067a6213a1947b93acace1685024, type: 3}
       propertyPath: m_Name
       value: pauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221966511991008827, guid: a442067a6213a1947b93acace1685024, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221966511991008827, guid: a442067a6213a1947b93acace1685024, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a442067a6213a1947b93acace1685024, type: 3}
