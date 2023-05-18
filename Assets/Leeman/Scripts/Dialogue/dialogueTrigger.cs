@@ -9,10 +9,14 @@ public class dialogueTrigger : MonoBehaviour
     public bool playerInRange = false; // track if player close enough (updated by playerDetection.cs)
     public bool playerInteracted = false; // track if player interacted (updated by interactionHandler.cs)
     [Header("Ink JSON")] // using Ink for handling dialogue text
+    public TextAsset greeting;
+    public TextAsset negative;
+    public TextAsset positive;
     public TextAsset inkJSON; // put the NPC's ink json file here in inspector
     /// METHODS
     void Start(){
         player = GameObject.FindWithTag("Player").transform; // find player transform
+        inkJSON = greeting; // set inkJSON to greeting
     }
     private void LateUpdate()
     {

@@ -52,6 +52,7 @@ public class dialogueManager : MonoBehaviour
         dialogueText.text = ""; // empty string
         GameObject.FindWithTag("Player").GetComponent<FirstPersonController>().enabled = true; // enable ctrlr
         Invoke("EnableCollider", 1.0f); // enable collider after 1 second
+        npcBody.GetComponent<AudioSource>().Stop(); // stop audio
     }
     private void ContinueStory() {
         if (currentStory.canContinue) { // make sure there's more dialogue to play

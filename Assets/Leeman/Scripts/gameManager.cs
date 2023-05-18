@@ -7,6 +7,9 @@ using TMPro;
 public class gameManager : MonoBehaviour
 {
     // EXTERNAL VARS
+    [Header("NPCs")]
+    public GameObject fetchNPC;
+    public GameObject shelfNPC;
     [Header("Escalator Stuff")]
     public GameObject tapeMop;
     public GameObject tapeStock;
@@ -55,6 +58,7 @@ public class gameManager : MonoBehaviour
             Destroy(tapeStock); // destroy a piece of tape
             pauseMenu.GetInstance().ListUpdate("restock", "All shelves restocked!"); // remove restock from pause menu
             occupied = false; // player no longer in minigame
+            shelfNPC.GetComponent<audioHandler>().SetClips("positive"); // set audio clips to positive
         }
     }
     public void AddFetch() { // triggered on successful fetch
@@ -64,6 +68,7 @@ public class gameManager : MonoBehaviour
             Destroy(tapeFetch); // destroy a piece of tape
             pauseMenu.GetInstance().ListUpdate("fetch", "All customers helped!"); // remove fetch from pause menu
             occupied = false;
+            fetchNPC.GetComponent<audioHandler>().SetClips("positive"); // set audio clips to positive
         }
         pauseMenu.GetInstance().ListUpdate("heldItem", ""); // remove held item from pause menu
     }

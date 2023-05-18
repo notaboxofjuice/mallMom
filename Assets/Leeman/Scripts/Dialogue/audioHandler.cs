@@ -17,17 +17,21 @@ public class audioHandler : MonoBehaviour
         switch (type) { // set currentClips based on supplied string
             case "greeting":
                 currentClips = greetingClips;
+                GetComponent<dialogueTrigger>().inkJSON = GetComponent<dialogueTrigger>().greeting; // set inkJSON to greeting
                 break;
             case "negative":
                 currentClips = negativeClips;
+                GetComponent<dialogueTrigger>().inkJSON = GetComponent<dialogueTrigger>().negative; // set inkJSON to negative
                 break;
             case "positive":
                 currentClips = positiveClips;
+                GetComponent<dialogueTrigger>().inkJSON = GetComponent<dialogueTrigger>().positive; // set inkJSON to positive
                 break;
             default:
                 Debug.Log("No clips found");
                 break;
         }
+        clipCount = 0; // reset clipCount
     }
     public void PlayNext() { // for playing the next clip in the currentClips array
         if (GetComponent<AudioSource>().isPlaying) { // if a clip is currently playing, stop it
