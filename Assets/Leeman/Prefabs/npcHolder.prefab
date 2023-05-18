@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 2632136204448539723}
   - component: {fileID: 8430560784377172202}
   - component: {fileID: 2229663964054327465}
+  - component: {fileID: 4020253758392431105}
   m_Layer: 0
   m_Name: bodyHere
   m_TagString: NPC
@@ -174,6 +175,21 @@ MonoBehaviour:
   playerInRange: 0
   playerInteracted: 0
   inkJSON: {fileID: 4900000, guid: 81b3e27fff45b3d43b7557e8fd7f24dc, type: 3}
+--- !u!114 &4020253758392431105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139676082802741521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d3182fe9327804aa7e35701425f3d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greetingClips: []
+  negativeClips: []
+  positiveClips: []
 --- !u!1 &5264848116100033184
 GameObject:
   m_ObjectHideFlags: 0
