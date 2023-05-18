@@ -36,8 +36,7 @@ public class pauseMenu : MonoBehaviour
         return instance; // it's this one here i am :)
     }
     public void Restart() { // restart button
-        Scene currentScene = SceneManager.GetActiveScene(); // get current scene
-        SceneManager.LoadScene(currentScene.name); // load currentScene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // load currentScene
         Pause(true); // unpause
     }
     public void Quit() { // quit button
